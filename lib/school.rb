@@ -19,8 +19,9 @@ end
   end
 
   def sort
-    @roster.map do |k, v|
-      v.sort
+    sorted_students = {}
+    @roster.each do |k, v|
+      sorted_students[grade]=v.sort
     end
   end
 end
