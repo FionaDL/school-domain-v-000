@@ -23,5 +23,6 @@ end
     @roster.each do |k, v|
       sorted_students[grade]=v.sort
     end
+    sorted_students
   end
 end
